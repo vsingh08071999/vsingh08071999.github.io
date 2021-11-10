@@ -20,10 +20,10 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="physician_web">
+  <meta name="apple-mobile-web-app-title" content="Physician App">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>physician_web</title>
+  <title>Physician App</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -33,11 +33,11 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
 <script type="text/javascript">
     pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js";
-</script>
+</script> -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
@@ -62,7 +62,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '555942558';
+    var serviceWorkerVersion = '1331063143';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {

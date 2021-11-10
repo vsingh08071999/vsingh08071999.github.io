@@ -1,6 +1,6 @@
 {
-    "name": "physician_web",
-    "short_name": "physician_web",
+    "name": "Physician App",
+    "short_name": "Physician App",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
